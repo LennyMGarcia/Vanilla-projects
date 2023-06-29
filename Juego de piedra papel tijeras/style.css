@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 25px;
+    width: 100.5%;
+}
+
+h1{
+    padding-right: 75px;
+}
+
+span{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+span#resultText{
+    font-size: 50px;
+    position: absolute;
+    transform: translate(-360px, 270px);
+}
+
+div#score{
+    font-size: 80px;
+    position: absolute;
+    border-color: aliceblue;
+    border-style: groove;
+    width: 150px;
+    height: 125px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: translate(115px, -25px);
+    
+}
+
+header>h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#container {
+    display: inline-flex;
+    padding: 25px;
+    margin: 0px 25px 0px 25px;
+    height: 600px;
+    position: relative;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: aliceblue;
+   
+
+}
+
+#botChoice {
+    display: inline;
+    margin: 25px 25px 25px 25px;
+    justify-content: center;
+    width: 250px;
+    height: 100%;
+    margin-left: 25px;
+
+}
+
+#botChoice > img{
+    display: inline;
+    
+
+}
+
+#userChoice {
+    display: inline;
+    width: 500px;
+    margin: 25px 25px 25px 25px;
+    padding-left: 100px;
+    justify-content: center;
+    width: 250px;
+    height: 100%;
+
+}
+
+#userChoice > img {
+    display: inline;
+   
+}
+
+div#BattleComparation{
+
+    flex:left;
+   
+    margin-right: 100px;
+    margin-top: 175px;
+    width: 450px;
+    
+}
+
+div#BattleComparation > img{
+    display: inline;
+    flex:left;
+    margin-left: 50px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+
