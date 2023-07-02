@@ -94,8 +94,14 @@ img {
 
 }
 
-#userChoice > img {
+#userChoice  img {
     display: inline;
+    transition: all 300ms;
+   
+}
+
+#userChoice  img:hover {
+    transform: scale(1.10);
    
 }
 
