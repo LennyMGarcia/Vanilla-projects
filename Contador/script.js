@@ -27,7 +27,7 @@ buttons.forEach( function (btn){
        }
 
        else if(count === 0){
-        value.style.color = "#fff";
+        value.style.color = "#000";
        }
 
        else if (count > 0){

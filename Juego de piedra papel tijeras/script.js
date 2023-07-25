@@ -70,8 +70,6 @@ function draw(u_Result, b_Result) {
     resultText.style.color = "white";
 }
 
-
-
 async function userQuickChange(){
     let arrayOfImgs = ["../Juego de piedra papel tijeras/imgs/piedra.jpg",
                        "../Juego de piedra papel tijeras/imgs/papel.jpg",
@@ -101,7 +99,6 @@ async function botQuickChange(){
         n++;
     } 
 }
-
 
 function delay(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
