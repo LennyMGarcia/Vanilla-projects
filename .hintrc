@@ -7,6 +7,7 @@
     "axe/text-alternatives": "off",
     "button-type": "off",
     "axe/name-role-value": "off",
-    "axe/language": "off"
+    "axe/language": "off",
+    "meta-charset-utf-8": "off"
   }
 }
