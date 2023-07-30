@@ -135,11 +135,12 @@ function displayMenuButtons() {
 
 function filterContent() {
     const filterBtns = btnContainer.querySelectorAll(".filter-btn");
-    console.log(filterBtns);
-
+   
     filterBtns.forEach(function (btn) {
-        btn.addEventListener("click", function (ev) {
-            const category = ev.currentTarget.dataset.id;
+     
+        btn.addEventListener("click", function (pointer) {
+            const category = pointer.currentTarget.dataset.id;
+           
             let menuCategory = menu.filter(function (menuItem) {
                 if (menuItem.category === category) {
                     return menuItem;
